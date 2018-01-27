@@ -147,41 +147,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 54942018780301202, guid: dbed505c66c3845489e141ca3ee92390,
-        type: 2}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 54942018780301202, guid: dbed505c66c3845489e141ca3ee92390,
-        type: 2}
-      propertyPath: m_Constraints
-      value: 84
-      objectReference: {fileID: 0}
-    - target: {fileID: 114361335707748060, guid: dbed505c66c3845489e141ca3ee92390,
-        type: 2}
-      propertyPath: speed
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 54942018780301202, guid: dbed505c66c3845489e141ca3ee92390,
-        type: 2}
-      propertyPath: m_Drag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114361335707748060, guid: dbed505c66c3845489e141ca3ee92390,
-        type: 2}
-      propertyPath: drag
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1672548968504370, guid: dbed505c66c3845489e141ca3ee92390, type: 2}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 114361335707748060, guid: dbed505c66c3845489e141ca3ee92390,
-        type: 2}
-      propertyPath: playerPosition
-      value: 
-      objectReference: {fileID: 11400000, guid: cbd54d3084ebfce498dcd56dad69e7ec,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dbed505c66c3845489e141ca3ee92390, type: 2}
   m_IsPrefabParent: 0
