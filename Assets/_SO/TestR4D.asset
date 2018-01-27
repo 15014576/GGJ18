@@ -8,9 +8,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09ca2c923a9ace84d9bc44e5686821b8, type: 3}
-  m_Name: A
+  m_Script: {fileID: 11500000, guid: 8ba553ac1b1b9dc4d8465dbdd8e5ecf2, type: 3}
+  m_Name: TestR4D
   m_EditorClassIdentifier: 
-  typeOfPanel: 0
-  nameOfSpeaker: 
-  text: 
+  rumours:
+  - {fileID: 11400000, guid: f0e8bf3dbaac31c41b2bf3e1c88429d0, type: 2}
+  index: 0

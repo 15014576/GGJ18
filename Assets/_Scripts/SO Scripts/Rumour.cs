@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[CreateAssetMenu(menuName = "Writing/Rumour")]
 public class Rumour : ScriptableObject
 {
     //Variables generated
