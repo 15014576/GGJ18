@@ -124,6 +124,7 @@ public class Cinematic : MonoBehaviour
         _ButtonNext.SetActive(false);
         _ButtonExit.SetActive(false);
 
+        StopAllCoroutines();
 
         switch(p.typeOfPanel)
         {
@@ -139,7 +140,7 @@ public class Cinematic : MonoBehaviour
                 {
                     _NamePanel.SetActive(true);
                 }
-                convoText.text = p.text;
+                StartCoroutine("PrintText", p.text);
                 _ConvoText.SetActive(true);
                 _SpeechPanel.SetActive(true);
                 break;
@@ -150,7 +151,7 @@ public class Cinematic : MonoBehaviour
                 {
                     _NamePanel.SetActive(true);
                 }
-                convoText.text = p.text;
+                StartCoroutine("PrintText", p.text);
                 _ConvoText.SetActive(true);
                 _SpeechPanel.SetActive(true);
                 break;
@@ -163,6 +164,19 @@ public class Cinematic : MonoBehaviour
         else
         {
             _ButtonNext.SetActive(true);
+        }
+    }
+
+    IEnumerator PrintText(string t)
+    {
+        convoText.text = "";
+
+        char[] chars = t.ToCharArray();
+
+        for (int i = 0; i < chars.Length; i++)
+        {
+            yield return new WaitForSeconds(1 / textSpeed);
+            convoText.text += chars[i];
         }
     }
 }

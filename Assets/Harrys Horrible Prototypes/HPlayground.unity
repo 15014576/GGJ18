@@ -444,6 +444,11 @@ Prefab:
       propertyPath: _ButtonExit
       value: 
       objectReference: {fileID: 292344986}
+    - target: {fileID: 114750512458868992, guid: 2a65cecd3b1d47c4a876edacf10b5a9f,
+        type: 2}
+      propertyPath: textSpeed
+      value: 30
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a65cecd3b1d47c4a876edacf10b5a9f, type: 2}
   m_IsPrefabParent: 0
