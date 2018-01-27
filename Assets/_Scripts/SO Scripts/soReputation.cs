@@ -8,8 +8,8 @@ public class soReputation : ScriptableObject {
 
     private int reputation;
 
-    public int min;
-    public int max;
+    public int min = -1000;
+    public int max = 1000;
 
     public int[] milestones = { 100, 200, 500, 800 };
 

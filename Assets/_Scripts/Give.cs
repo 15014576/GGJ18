@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Give : MonoBehaviour
 {
     public soReputation rep;
+    public soVector3 playerPosition;
+    public Canvas canvas;
 
     // Use this for initialization
     void Start()
@@ -22,9 +25,16 @@ public class Give : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.transform.tag == "Goth")
+                Vector3 dist = playerPosition.Value - hit.transform.position;
+
+                if (dist.magnitude < 3.0f)
                 {
-                    rep.changeReputation(100);
+                    if (hit.transform.tag == "Goth")
+                    {
+                        rep.changeReputation(100);
+                        Debug.Log(rep.getReputation());
+                        canvas.gameObject.SetActive(true);
+                    }
                 }
             }
         }
