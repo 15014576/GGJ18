@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class RumourPool : ScriptableObject
 {
-    List<Rumour> tierone;
-    List<Rumour> tiertwo;
-    List<Rumour> tierthree;
+    public List<Rumour> tierone;
+    public List<Rumour> tiertwo;
+    public List<Rumour> tierthree;
 
     public Rumour GetRumour(int tier)
     {
