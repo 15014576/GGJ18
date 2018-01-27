@@ -14,7 +14,6 @@ public class SliderController : MonoBehaviour {
 
     private void Update()
     {
-        Debug.Log("Rep is: " + update.reputation);
-        repBar.value = update.reputation;
+        repBar.value = update.getReputation();
     }
 }

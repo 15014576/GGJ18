@@ -9,7 +9,7 @@ public class Group : ScriptableObject
 
     public float stature;
 
-    //insert soreputation here yo;
+    public soReputation playerRep;
 
     public List<Group> friends;
     public List<Group> enemies;

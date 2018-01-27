@@ -13,6 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: 
   stature: 0
+  playerRep: {fileID: 11400000, guid: 48c0b48c489e54b4b9ddaa3161be21d0, type: 2}
   friends:
   - {fileID: 11400000, guid: 69b1a6dd01030f644a32178d0a72b91a, type: 2}
   - {fileID: 11400000, guid: 522fdd66d5de74f44905ee2143d45341, type: 2}
