@@ -4,7 +4,18 @@ using UnityEngine;
 
 public class PanelInfo : ScriptableObject
 {
-    /*
-     * Insert Some Wonderful Stuff Here.
-     */
+    public List<Panel> panels;
+    public int index;
+
+    private void OnEnable()
+    {
+        index = 0;
+    }
+
+    public Panel GetNextPanel()
+    {
+        Panel panel = panels[index];
+        index++;
+        return panel;
+    }
 }
