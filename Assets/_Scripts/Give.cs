@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class Give : MonoBehaviour
 {
-    //Rumour rumour;
+    public soReputation change;
 
     // Use this for initialization
     void Start()
     {
-        //Rumour rumour = new Rumour();
 
     }
 
@@ -25,7 +24,7 @@ public class Give : MonoBehaviour
             {
                 if (hit.transform.tag == "Goth")
                 {
-                    hit.transform.Translate(10, 0, 0);
+                    change.reputation += 500;
                 }
             }
         }
