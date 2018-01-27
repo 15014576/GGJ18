@@ -4,7 +4,60 @@ timeCreated: 1517079139
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: ArmL
+    100002: ArmR
+    100004: Body_Neck
+    100006: BoxBody_V2
+    100008: BoxBody_VEd
+    100010: //RootNode
+    100012: CharacterHead_E
+    100014: CharacterHead_Edit
+    100016: LegL
+    100018: LegR
+    100020: Sphere001
+    400000: ArmL
+    400002: ArmR
+    400004: Body_Neck
+    400006: BoxBody_V2
+    400008: BoxBody_VEd
+    400010: //RootNode
+    400012: CharacterHead_E
+    400014: CharacterHead_Edit
+    400016: LegL
+    400018: LegR
+    400020: Sphere001
+    2300000: ArmL
+    2300002: ArmR
+    2300004: Body_Neck
+    2300006: BoxBody_V2
+    2300008: BoxBody_VEd
+    2300010: CharacterHead_E
+    2300012: CharacterHead_Edit
+    2300014: LegL
+    2300016: LegR
+    2300018: Sphere001
+    3300000: ArmL
+    3300002: ArmR
+    3300004: Body_Neck
+    3300006: BoxBody_V2
+    3300008: BoxBody_VEd
+    3300010: CharacterHead_E
+    3300012: CharacterHead_Edit
+    3300014: LegL
+    3300016: LegR
+    3300018: Sphere001
+    4300000: CharacterHead_E
+    4300002: BoxBody_VEd
+    4300004: Sphere001
+    4300006: BoxBody_V2
+    4300008: LegL
+    4300010: LegR
+    4300012: ArmL
+    4300014: ArmR
+    4300016: CharacterHead_Edit
+    4300018: Body_Neck
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
