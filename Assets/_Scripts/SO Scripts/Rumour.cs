@@ -6,6 +6,8 @@ public class Rumour : ScriptableObject
 {
     //Variables generated
     public CharacterID about;
+    public string summary;
+
     public PanelInfo opening;
     public List<PanelInfo> outcomes;
 
