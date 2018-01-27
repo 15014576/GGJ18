@@ -1,47 +1,52 @@
 fileFormatVersion: 2
-guid: 63a4f5db9e95f374d8e681f18b7e7571
-timeCreated: 1517079138
+guid: 101169801088f92419c3905fe10af878
+timeCreated: 1517085547
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
-    100000: ArmL
-    100002: //RootNode
-    100004: BoxBody_V2
-    100006: BoxBody_VEd
-    100008: CharacterHead
-    100010: LegL
-    100012: LegR
-    100014: Sphere001
-    400000: ArmL
-    400002: //RootNode
-    400004: BoxBody_V2
-    400006: BoxBody_VEd
-    400008: CharacterHead
-    400010: LegL
-    400012: LegR
-    400014: Sphere001
-    2300000: ArmL
-    2300002: BoxBody_V2
-    2300004: BoxBody_VEd
-    2300006: CharacterHead
-    2300008: LegL
-    2300010: LegR
-    2300012: Sphere001
-    3300000: ArmL
-    3300002: BoxBody_V2
-    3300004: BoxBody_VEd
-    3300006: CharacterHead
-    3300008: LegL
-    3300010: LegR
-    3300012: Sphere001
-    4300000: CharacterHead
-    4300002: BoxBody_VEd
-    4300004: Sphere001
-    4300006: BoxBody_V2
-    4300008: LegL
-    4300010: LegR
-    4300012: ArmL
+    100000: ArmL003
+    100002: ArmL004
+    100004: ArmL005
+    100006: Body_Neck001
+    100008: BoxBody_VEd001
+    100010: CharacterHead_Edit001
+    100012: //RootNode
+    100014: LegL002
+    100016: LegL003
+    400000: ArmL003
+    400002: ArmL004
+    400004: ArmL005
+    400006: Body_Neck001
+    400008: BoxBody_VEd001
+    400010: CharacterHead_Edit001
+    400012: //RootNode
+    400014: LegL002
+    400016: LegL003
+    2300000: ArmL003
+    2300002: ArmL004
+    2300004: ArmL005
+    2300006: Body_Neck001
+    2300008: BoxBody_VEd001
+    2300010: CharacterHead_Edit001
+    2300012: LegL002
+    2300014: LegL003
+    3300000: ArmL003
+    3300002: ArmL004
+    3300004: ArmL005
+    3300006: Body_Neck001
+    3300008: BoxBody_VEd001
+    3300010: CharacterHead_Edit001
+    3300012: LegL002
+    3300014: LegL003
+    4300000: LegL002
+    4300002: ArmL003
+    4300004: CharacterHead_Edit001
+    4300006: Body_Neck001
+    4300008: ArmL004
+    4300010: ArmL005
+    4300012: LegL003
+    4300014: BoxBody_VEd001
     9500000: //RootNode
   materials:
     importMaterials: 1

@@ -1,48 +1,10 @@
 fileFormatVersion: 2
-guid: 5a084b5a08d8c1e45b17e15b00f597b9
-timeCreated: 1517079137
+guid: 8eaff5a66dea5b24c9480592446fe11c
+timeCreated: 1517085610
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
-  fileIDToRecycleName:
-    100000: ArmL
-    100002: //RootNode
-    100004: BoxBody_V2
-    100006: BoxBody_VEd
-    100008: CharacterHead
-    100010: LegL
-    100012: LegR
-    100014: Sphere001
-    400000: ArmL
-    400002: //RootNode
-    400004: BoxBody_V2
-    400006: BoxBody_VEd
-    400008: CharacterHead
-    400010: LegL
-    400012: LegR
-    400014: Sphere001
-    2300000: ArmL
-    2300002: BoxBody_V2
-    2300004: BoxBody_VEd
-    2300006: CharacterHead
-    2300008: LegL
-    2300010: LegR
-    2300012: Sphere001
-    3300000: ArmL
-    3300002: BoxBody_V2
-    3300004: BoxBody_VEd
-    3300006: CharacterHead
-    3300008: LegL
-    3300010: LegR
-    3300012: Sphere001
-    4300000: CharacterHead
-    4300002: BoxBody_VEd
-    4300004: Sphere001
-    4300006: BoxBody_V2
-    4300008: LegL
-    4300010: LegR
-    4300012: ArmL
-    9500000: //RootNode
+  fileIDToRecycleName: {}
   materials:
     importMaterials: 1
     materialName: 0
