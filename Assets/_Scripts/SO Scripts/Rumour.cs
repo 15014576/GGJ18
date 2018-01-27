@@ -10,7 +10,7 @@ public class Rumour : ScriptableObject
     public List<PanelInfo> outcomes;
 
     public int intensity;
-    public GroupID idealGroup;
+    public Group idealGroup;
 
     //Variables affected by gameplay
     public int outcomeIndex;
