@@ -11,4 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e2c20ea8d9ce6049bacf8bdd68f3037, type: 3}
   m_Name: soReputation
   m_EditorClassIdentifier: 
-  reputation: 0
+  min: -1000
+  max: 1000
+  milestones: 64000000c8000000f401000020030000
