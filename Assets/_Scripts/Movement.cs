@@ -23,6 +23,5 @@ public class Movement : MonoBehaviour
         rb.velocity = (rightVector + forwardVector) * speed;
 
         playerPosition.Value = transform.position;
-		
 	}
 }
