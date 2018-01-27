@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 0e636c638f479f842b44f44770b10dc5
 timeCreated: 1516999015
+=======
+guid: 33ff08877672f3045b478506f44e4660
+timeCreated: 1516998999
+>>>>>>> jake
 licenseType: Free
 TextScriptImporter:
   userData: 

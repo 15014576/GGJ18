@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: d4a2db73aaa158146b012f3e4c2d548c
 folderAsset: yes
 timeCreated: 1516999091
+=======
+guid: 5377ed18c01a536458cc1dc566e5e8b9
+folderAsset: yes
+timeCreated: 1516999057
+>>>>>>> jake
 licenseType: Free
 DefaultImporter:
   userData: 
