@@ -18,12 +18,12 @@ public class Rumour : MonoBehaviour
 	void Start () {
 		if (about == "Goth")
         {
-            Goth goth;
+            Group.Goth goth;
         }
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	void rumourGiven()
+    {
+
+    }
 }

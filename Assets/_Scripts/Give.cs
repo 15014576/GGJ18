@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Give : MonoBehaviour
 {
-    Rumour rumour;
+    //Rumour rumour;
 
     // Use this for initialization
     void Start()
     {
-        Rumour rumour = new Rumour("Goth's hate dogs", "Goth");
+        //Rumour rumour = new Rumour();
 
     }
 
@@ -23,13 +23,10 @@ public class Give : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
-                Goth.Jock jock;
-
-                if (hit.transform.name == rumour.about)
+                if (hit.transform.tag == "Goth")
                 {
-                    //give positive score
+                    hit.transform.Translate(10, 0, 0);
                 }
-                else if (hit.transform.name != rumour.about && )
             }
         }
     }

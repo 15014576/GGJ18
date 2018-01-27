@@ -2,11 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Groups : MonoBehaviour {
+public class Group : MonoBehaviour
+{
 
     public class Goth : MonoBehaviour
     {
-        public int reputation;
+        private static int reputation;
+
+        int getRep ()
+        {
+            return reputation;
+        }
+
+        void modifyRep (int rep)
+        {
+            reputation += rep;
+        }
     }
 
     public class Jock : MonoBehaviour
@@ -26,12 +37,14 @@ public class Groups : MonoBehaviour {
 
 
     // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
 }
