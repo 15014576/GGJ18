@@ -10,6 +10,7 @@ public class Cinematic : MonoBehaviour
     List<PanelInfo> dialog;
     int PIindex, panelIndex;
     bool outOfDialogs;
+    bool lastPanel;
 
     public float textSpeed;
 
@@ -23,6 +24,8 @@ public class Cinematic : MonoBehaviour
     public GameObject _CentreImage;
     public GameObject _NameText;
     public GameObject _ConvoText;
+    public GameObject _ButtonNext;
+    public GameObject _ButtonExit;
 
     TextMeshProUGUI settingText;
     Image background;
@@ -71,6 +74,7 @@ public class Cinematic : MonoBehaviour
         PIindex = 0;
         panelIndex = 0;
         outOfDialogs = false;
+        lastPanel = false;
         PanelParse(dialog[PIindex].panels[panelIndex]);
     }
 
@@ -92,6 +96,11 @@ public class Cinematic : MonoBehaviour
             }
         }
 
+        if (PIindex == dialog.Count - 1 && panelIndex == dialog[PIindex].panels.Count - 1)
+        {
+            lastPanel = true;
+        }
+
         if (outOfDialogs)
         {
             Debug.Log("Out of Dialogs, please code me.");
@@ -111,6 +120,9 @@ public class Cinematic : MonoBehaviour
         _SettingText.SetActive(false);
         _NameText.SetActive(false);
         _ConvoText.SetActive(false);
+
+        _ButtonNext.SetActive(false);
+        _ButtonExit.SetActive(false);
 
 
         switch(p.typeOfPanel)
@@ -142,6 +154,15 @@ public class Cinematic : MonoBehaviour
                 _ConvoText.SetActive(true);
                 _SpeechPanel.SetActive(true);
                 break;
+        }
+
+        if(lastPanel)
+        {
+            _ButtonExit.SetActive(true);
+        }
+        else
+        {
+            _ButtonNext.SetActive(true);
         }
     }
 }
