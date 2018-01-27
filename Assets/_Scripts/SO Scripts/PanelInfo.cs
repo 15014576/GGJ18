@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Writing/PanelInfo")]
+[CreateAssetMenu(menuName = "Writing/Dialogue", fileName = "Dialogue")]
 public class PanelInfo : ScriptableObject
 {
     public List<Panel> panels;
