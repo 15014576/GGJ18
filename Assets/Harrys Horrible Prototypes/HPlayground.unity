@@ -464,6 +464,10 @@ Prefab:
       propertyPath: _NamePanel
       value: 
       objectReference: {fileID: 1680240836}
+    - target: {fileID: 1522234817708588, guid: 2a65cecd3b1d47c4a876edacf10b5a9f, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a65cecd3b1d47c4a876edacf10b5a9f, type: 2}
   m_IsPrefabParent: 0

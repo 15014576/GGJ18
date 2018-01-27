@@ -9,6 +9,7 @@ public class Cinematic : MonoBehaviour
     public RumoursForTheDay rumoursForTheDay;
     List<PanelInfo> dialog;
     int PIindex, panelIndex;
+    bool outOfDialogs;
 
     public float textSpeed;
 
@@ -69,13 +70,37 @@ public class Cinematic : MonoBehaviour
         dialog = _dialog;
         PIindex = 0;
         panelIndex = 0;
+        outOfDialogs = false;
         PanelParse(dialog[PIindex].panels[panelIndex]);
     }
 
     public void NextPanel()
     {
         panelIndex++;
-        PanelParse(dialog[PIindex].panels[panelIndex]);
+
+        if (panelIndex == dialog[PIindex].panels.Count)
+        {
+            PIindex++;
+
+            if (PIindex == dialog.Count)
+            {
+                outOfDialogs = true;
+            }
+            else
+            {
+                panelIndex = 0;
+            }
+        }
+
+        if (outOfDialogs)
+        {
+            Debug.Log("Out of Dialogs, please code me.");
+        }
+        else
+        {
+            PanelParse(dialog[PIindex].panels[panelIndex]);
+        }
+        
     }
 
     void PanelParse(Panel p)
@@ -109,6 +134,10 @@ public class Cinematic : MonoBehaviour
             case PanelType.Two_Person:
                 nameText.text = p.nameOfSpeaker;
                 _NameText.SetActive(true);
+                if (nameText.text != "")
+                {
+                    _NamePanel.SetActive(true);
+                }
                 convoText.text = p.text;
                 _ConvoText.SetActive(true);
                 _SpeechPanel.SetActive(true);
