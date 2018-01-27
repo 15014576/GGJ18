@@ -7,7 +7,7 @@ public class Give : MonoBehaviour
 {
     public soReputation rep;
     public soVector3 playerPosition;
-    public Canvas canvas;
+    public GameObject canvas;
 
     // Use this for initialization
     void Start()
@@ -33,7 +33,7 @@ public class Give : MonoBehaviour
                     {
                         rep.changeReputation(100);
                         Debug.Log(rep.getReputation());
-                        canvas.gameObject.SetActive(true);
+                        canvas.SetActive(true);
                     }
                 }
             }
