@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Give : MonoBehaviour
 {
-    public soReputation change;
+    public soReputation rep;
 
     // Use this for initialization
     void Start()
@@ -24,7 +24,7 @@ public class Give : MonoBehaviour
             {
                 if (hit.transform.tag == "Goth")
                 {
-                    change.reputation += 500;
+                    rep.changeReputation(100);
                 }
             }
         }
