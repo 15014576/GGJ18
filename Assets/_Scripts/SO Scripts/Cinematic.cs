@@ -6,6 +6,7 @@ using TMPro;
 
 public class Cinematic : MonoBehaviour
 {
+    public State StateManager;
     public RumoursForTheDay rumoursForTheDay;
     List<PanelInfo> dialog;
     int PIindex, panelIndex;
@@ -103,7 +104,7 @@ public class Cinematic : MonoBehaviour
 
         if (outOfDialogs)
         {
-            Debug.Log("Out of Dialogs, please code me.");
+            StateManager.EndOfCinematic();
         }
         else
         {

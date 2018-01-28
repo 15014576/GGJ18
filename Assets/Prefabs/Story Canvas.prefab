@@ -838,6 +838,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd8630223065d8443bd59beeed494f97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StateManager: {fileID: 11400000, guid: f3a1e15e204d6984ba754d27915115bd, type: 2}
   rumoursForTheDay: {fileID: 11400000, guid: 8c2d6900f7ff1b74f95da1625599cb00, type: 2}
   textSpeed: 30
   _SettingPanel: {fileID: 1714621479278242}

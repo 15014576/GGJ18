@@ -54,3 +54,4 @@ MonoBehaviour:
   StateManager: {fileID: 11400000, guid: f3a1e15e204d6984ba754d27915115bd, type: 2}
   BrowserCanvas: {fileID: 0}
   StoryCanvas: {fileID: 0}
+  RumourMillScript: {fileID: 11400000, guid: dfe2939dca59799439d78ebcf6ecf641, type: 2}
