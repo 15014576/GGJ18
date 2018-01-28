@@ -8,11 +8,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< HEAD
-  m_Script: {fileID: 11500000, guid: 69fbae5f90f277f438f281de6ba0d1e6, type: 3}
-=======
-  m_Script: {fileID: 11500000, guid: 6a4ac735dcaf15446b5f75c5fa6f28f5, type: 3}
->>>>>>> harry
-  m_Name: OutcomesForTheDay
+  m_Script: {fileID: 11500000, guid: 321d28282ecb3a9479399e5619c3326f, type: 3}
+  m_Name: StateController
   m_EditorClassIdentifier: 
-  outcomes: []

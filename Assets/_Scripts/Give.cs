@@ -29,7 +29,7 @@ public class Give : MonoBehaviour
 
                 if (dist.magnitude < 3.0f)
                 {
-                    if (hit.transform.tag == "Goth")
+                    if (hit.transform.tag == "NPC")
                     {
                         rep.changeReputation(100);
                         Debug.Log(rep.getReputation());
