@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Pretty
   m_EditorClassIdentifier: 
   title: 
-  stature: {fileID: 0}
+  stature: {fileID: 11400000, guid: d2f09067a07b14348b5d0883bdfa1c3f, type: 2}
   playerRep: {fileID: 11400000, guid: 9c51733d44c77bb46b9c96d9184b316d, type: 2}
   pool: {fileID: 0}
   friends:

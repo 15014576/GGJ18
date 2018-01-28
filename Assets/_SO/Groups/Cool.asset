@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Cool
   m_EditorClassIdentifier: 
   title: 
-  stature: {fileID: 0}
+  stature: {fileID: 11400000, guid: 0809b394910f4a044978b2ee1dd27f70, type: 2}
   playerRep: {fileID: 11400000, guid: 48c0b48c489e54b4b9ddaa3161be21d0, type: 2}
   pool: {fileID: 0}
   friends:
