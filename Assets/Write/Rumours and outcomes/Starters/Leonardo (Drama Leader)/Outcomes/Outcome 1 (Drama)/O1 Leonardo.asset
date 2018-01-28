@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0db458163059a6a43a6ddcb5bacfdd88, type: 3}
+  m_Name: O1 Leonardo
+  m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 11400000, guid: 225905a6a2cf56745a1343e721023ef7, type: 2}
+  - {fileID: 11400000, guid: f7b3cc5a139ee87429dad0c1d865fb58, type: 2}
+  - {fileID: 11400000, guid: 2a0e56f589b0bd34f8e74c4d2ff2bd1d, type: 2}
+  - {fileID: 11400000, guid: 33e490c73c9f3444e855282d52c2b4d6, type: 2}
+  - {fileID: 11400000, guid: 5c261e9e7456db043bee87127ba75242, type: 2}
+  - {fileID: 11400000, guid: 9886311918026634db3bdb0264ee89b6, type: 2}
+  - {fileID: 11400000, guid: a54ee9f20d1f4a24eb668080c694cade, type: 2}
+  index: 0

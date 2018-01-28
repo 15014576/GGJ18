@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0db458163059a6a43a6ddcb5bacfdd88, type: 3}
+  m_Name: O3 Leonardo Chat
+  m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 11400000, guid: b080ed95e10ad1744a82504d90ebaa05, type: 2}
+  - {fileID: 11400000, guid: f56827571d4e7b94fb8af65b2c1d9b71, type: 2}
+  - {fileID: 11400000, guid: 035970b67c589b24fa53e53e3c8223de, type: 2}
+  - {fileID: 11400000, guid: 5c63d1a2ffd957f49adc1a4aaa822ef3, type: 2}
+  - {fileID: 11400000, guid: 402f722000501cf4f8c2adb5ab4d7594, type: 2}
+  - {fileID: 11400000, guid: 94461eff46cca874c83427e144332217, type: 2}
+  - {fileID: 11400000, guid: 5b59ef54a23d8d047b56262335fe2b3e, type: 2}
+  index: 0
