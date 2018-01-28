@@ -10,12 +10,13 @@ public class Rumour : ScriptableObject
     public string summary;
 
     public PanelInfo opening;
-    public List<PanelInfo> outcomes;
+    public PanelInfo outcome_tellAbout;
+    public List<PanelInfo> outcomes_tellFriends;
+    public List<PanelInfo> outcomes_tellEnemies;
 
     public int intensity;
     public Group idealGroup;
 
     //Variables affected by gameplay
-    public int outcomeIndex;
     public CharacterID told;
 }
