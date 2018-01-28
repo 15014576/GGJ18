@@ -5,6 +5,7 @@ using UnityEngine;
 public class RumourMill : ScriptableObject
 {
     public RumoursForTheDay rumoursOut;
+    public OutcomesForTheDay outcomesOut;
     public Group coolGroup;
     public Group dramaGroup;
     public Group nerdGroup;
@@ -14,9 +15,9 @@ public class RumourMill : ScriptableObject
 
     public void Generate()
     {
-        //Clear Out the previous rumours
+        //Clear Out the previous rumours and outcomes
         rumoursOut.rumours.Clear();
-        rumoursOut.index = 0;
+        outcomesOut.outcomes.Clear();
 
         //Decide which pools to pull from for the three rumours
         Group[] groups = new Group[3];

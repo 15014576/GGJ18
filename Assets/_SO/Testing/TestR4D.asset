@@ -14,4 +14,3 @@ MonoBehaviour:
   rumours:
   - {fileID: 11400000, guid: f0e8bf3dbaac31c41b2bf3e1c88429d0, type: 2}
   - {fileID: 11400000, guid: e53e933fa4fcff54aa86158a6434b0c0, type: 2}
-  index: 0

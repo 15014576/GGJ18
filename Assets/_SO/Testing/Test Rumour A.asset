@@ -9,13 +9,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 08de088044f94884fb3477e2f80ac5b9, type: 3}
-  m_Name: Test Rumour B
+  m_Name: Test Rumour A
   m_EditorClassIdentifier: 
   about: {fileID: 0}
   summary: You suck.
-  opening: {fileID: 11400000, guid: 37e520c764a304e4db873244f2ec47c2, type: 2}
-  outcomes: []
-  intensity: 0
+  opening: {fileID: 11400000, guid: 8b96c9d42f78867439de7db0939cae62, type: 2}
+  outcome_tellAbout: {fileID: 0}
+  outcomes_tellFriends: []
+  outcomes_tellEnemies: []
+  intensity: 1
   idealGroup: {fileID: 0}
-  outcomeIndex: 0
   told: {fileID: 0}
