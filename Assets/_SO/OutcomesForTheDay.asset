@@ -8,11 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0db458163059a6a43a6ddcb5bacfdd88, type: 3}
-  m_Name: TOpening3
+  m_Script: {fileID: 11500000, guid: 69fbae5f90f277f438f281de6ba0d1e6, type: 3}
+  m_Name: OutcomesForTheDay
   m_EditorClassIdentifier: 
-  panels:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  index: 0
+  outcomes: []
