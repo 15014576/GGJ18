@@ -12,13 +12,7 @@ MonoBehaviour:
   m_Name: TOpening3
   m_EditorClassIdentifier: 
   panels:
-<<<<<<< HEAD
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-=======
   - {fileID: 11400000, guid: 9341a470ca57be54580eff65d8c53285, type: 2}
   - {fileID: 11400000, guid: a7e6cb29dcd474247baefe18cbeb6a1a, type: 2}
   - {fileID: 11400000, guid: 885fd8f17a70d484b943f5216b0fcaf9, type: 2}
->>>>>>> harry
   index: 0

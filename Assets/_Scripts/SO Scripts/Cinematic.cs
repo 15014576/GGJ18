@@ -49,13 +49,28 @@ public class Cinematic : MonoBehaviour
         centreImage = _CentreImage.GetComponent<Image>();
         nameText = _NameText.GetComponent<TextMeshProUGUI>();
         convoText = _ConvoText.GetComponent<TextMeshProUGUI>();
+    }
 
-        ShowRumours();
+    private void Update()
+    {
+        if(StateManager.panelInfoWaiting)
+        {
+            if(StateManager.GetState() == StateName.Rumours)
+            {
+                StateManager.panelInfoWaiting = false;
+                ShowRumours();
+            }
+
+            if (StateManager.GetState() == StateName.Outcomes)
+            {
+                StateManager.panelInfoWaiting = false;
+                ShowOutcomes();
+            }
+        }
     }
 
     public void ShowRumours()
     {
-        Debug.Log(settingText.text);
         List<PanelInfo> _dialog = new List<PanelInfo>();
         List<Rumour> rum = rumoursForTheDay.rumours;
 
@@ -69,7 +84,7 @@ public class Cinematic : MonoBehaviour
 
     public void ShowOutcomes()
     {
-
+        Debug.Log("Missing code");
     }
 
     void Show(List<PanelInfo> _dialog)

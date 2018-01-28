@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[CreateAssetMenu(menuName = "Misc/RumourPool")]
 public class RumourPool : ScriptableObject
 {
     public List<Rumour> tierone;

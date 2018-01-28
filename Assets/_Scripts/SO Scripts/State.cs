@@ -9,20 +9,25 @@ public class State : ScriptableObject
 
     GameObject Broswer;
     GameObject Story;
-    Cinematic Cine;
+    public Cinematic Cine;
     RumourMill Mill;
+    public bool panelInfoWaiting;
 
-    public void Setup(GameObject _browser, GameObject _story, Cinematic _cine, RumourMill _mill)
+    public void Setup(GameObject _browser, GameObject _story, RumourMill _mill)
     {
         Broswer = _browser;
         Story = _story;
-        Cine = _cine;
         Mill = _mill;
 
         Broswer.SetActive(false);
         Story.SetActive(false);
 
         changeState(StateName.Home);
+    }
+
+    public void SetupCinematic(Cinematic c)
+    {
+        Cine = c;
     }
 
     public StateName GetState()
@@ -66,7 +71,7 @@ public class State : ScriptableObject
                     }
                 }
                 Story.SetActive(true);
-                Cine.ShowRumours();
+                panelInfoWaiting = true;
                 
                 break;
             case StateName.Outcomes:
