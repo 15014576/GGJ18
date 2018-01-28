@@ -55,6 +55,7 @@ public class Cinematic : MonoBehaviour
 
     public void ShowRumours()
     {
+        Debug.Log(settingText.text);
         List<PanelInfo> _dialog = new List<PanelInfo>();
         List<Rumour> rum = rumoursForTheDay.rumours;
 
@@ -173,6 +174,7 @@ public class Cinematic : MonoBehaviour
 
         if(lastPanel)
         {
+            Debug.Log("Hi");
             _ButtonExit.SetActive(true);
         }
         else

@@ -4,4 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Harrys Horrible Prototypes/HPlayground.unity
+    guid: 770618213bbf9fb458b2dabe1b2d5ebc
