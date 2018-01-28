@@ -12,11 +12,17 @@ MonoBehaviour:
   m_Name: Nerd
   m_EditorClassIdentifier: 
   title: 
-  stature: 0
+  stature: {fileID: 0}
   playerRep: {fileID: 11400000, guid: 7a021b1f92f43954f9bd885ad3e1d974, type: 2}
+  pool: {fileID: 0}
   friends:
   - {fileID: 11400000, guid: a6ebe1cf87a332a43aedd846ad553b75, type: 2}
   - {fileID: 11400000, guid: 522fdd66d5de74f44905ee2143d45341, type: 2}
   enemies:
   - {fileID: 11400000, guid: 853db73dab01a75438ff72eff622b4a6, type: 2}
   - {fileID: 11400000, guid: 69b1a6dd01030f644a32178d0a72b91a, type: 2}
+  charIDs:
+  - {fileID: 11400000, guid: 493521ee6fbfc2547a1765b28125ab8a, type: 2}
+  - {fileID: 11400000, guid: d13836ad0b35ff94c94cab9170341c11, type: 2}
+  - {fileID: 11400000, guid: 9090b8112a8e43547ab9621f497ea76b, type: 2}
+  - {fileID: 11400000, guid: 4e7d877c432f1464c83f26a65821bcc2, type: 2}

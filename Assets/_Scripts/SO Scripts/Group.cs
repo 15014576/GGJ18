@@ -15,6 +15,7 @@ public class Group : ScriptableObject
 
     public List<Group> friends;
     public List<Group> enemies;
+    public List<CharacterID> charIDs;
 
     public Rumour GetRumour()
     {

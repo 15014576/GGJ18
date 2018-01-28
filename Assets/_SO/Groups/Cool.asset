@@ -12,11 +12,17 @@ MonoBehaviour:
   m_Name: Cool
   m_EditorClassIdentifier: 
   title: 
-  stature: 0
+  stature: {fileID: 0}
   playerRep: {fileID: 11400000, guid: 48c0b48c489e54b4b9ddaa3161be21d0, type: 2}
+  pool: {fileID: 0}
   friends:
   - {fileID: 11400000, guid: 69b1a6dd01030f644a32178d0a72b91a, type: 2}
   - {fileID: 11400000, guid: 522fdd66d5de74f44905ee2143d45341, type: 2}
   enemies:
   - {fileID: 11400000, guid: a6ebe1cf87a332a43aedd846ad553b75, type: 2}
   - {fileID: 11400000, guid: 962ce519e62a025438aca6afad83d587, type: 2}
+  charIDs:
+  - {fileID: 11400000, guid: 2171c9fef978990408cd20c5f383fb97, type: 2}
+  - {fileID: 11400000, guid: db88d4d9d5428674baf916059033a4ca, type: 2}
+  - {fileID: 11400000, guid: 00c051a91f6163a48b01f83866ae865f, type: 2}
+  - {fileID: 11400000, guid: 1e957ae2e124f7d448e3cb50c522a56f, type: 2}
