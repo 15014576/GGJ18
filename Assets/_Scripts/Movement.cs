@@ -5,6 +5,8 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     Rigidbody rb;
+    Animator a;
+    Transform childMesh;
     public float speed;
     public soVector3 playerPosition;
 
@@ -12,6 +14,8 @@ public class Movement : MonoBehaviour
 	void Start ()
     {
         rb = GetComponent<Rigidbody>();
+        a = GetComponentInChildren<Animator>();
+        childMesh = transform.GetChild(0);
 	}
 	
 	// Update is called once per frame
@@ -23,5 +27,17 @@ public class Movement : MonoBehaviour
         rb.velocity = (rightVector + forwardVector) * speed;
 
         playerPosition.Value = transform.position;
+
+        if(rb.velocity.magnitude > 0f)
+        {
+            childMesh.localPosition = new Vector3(childMesh.localPosition.x, 0, childMesh.localPosition.z);
+            childMesh.localRotation = Quaternion.LookRotation(rb.velocity.normalized);
+            a.SetBool("isRunning", true);
+        }
+        else
+        {
+            childMesh.localPosition = new Vector3(childMesh.localPosition.x, -1f, childMesh.localPosition.z);
+            a.SetBool("isRunning", false);
+        }
 	}
 }
