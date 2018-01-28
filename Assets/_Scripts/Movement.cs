@@ -5,6 +5,8 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     Rigidbody rb;
+    Animator a;
+    Transform childMesh;
     public float speed;
     public soVector3 playerPosition;
 
@@ -12,6 +14,8 @@ public class Movement : MonoBehaviour
 	void Start ()
     {
         rb = GetComponent<Rigidbody>();
+        a = GetComponentInChildren<Animator>();
+        childMesh = transform.GetChild(0);
 	}
 	
 	// Update is called once per frame
@@ -23,7 +27,6 @@ public class Movement : MonoBehaviour
         rb.velocity = (rightVector + forwardVector) * speed;
 
         playerPosition.Value = transform.position;
-<<<<<<< HEAD
 
         if(rb.velocity.magnitude > 0f)
         {
@@ -36,7 +39,5 @@ public class Movement : MonoBehaviour
             a.SetBool("isRunning", false);
             childMesh.localPosition = new Vector3(childMesh.localPosition.x, -1f, childMesh.localPosition.z);
         }
-=======
->>>>>>> parent of 40aba94... Getting it change animation on run
 	}
 }
