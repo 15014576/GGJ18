@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Drama
   m_EditorClassIdentifier: 
   title: 
-  stature: {fileID: 0}
+  stature: {fileID: 11400000, guid: c859e56a8a7f6bd4dacf874ba0a6db84, type: 2}
   playerRep: {fileID: 11400000, guid: e4f4e1881f1ffa744aa9baadb1552309, type: 2}
   pool: {fileID: 0}
   friends:

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0db458163059a6a43a6ddcb5bacfdd88, type: 3}
+  m_Name: O3 Leonardo Convo
+  m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 11400000, guid: 270d0b66c37cf32408289026a2c80f42, type: 2}
+  - {fileID: 11400000, guid: 6502b24dc96729c4ca9a177d9f1a7ea1, type: 2}
+  - {fileID: 11400000, guid: b7462e39f95f00d4aac82472da9f9568, type: 2}
+  - {fileID: 11400000, guid: 5c7c30f677e4de64b801ad4446d77276, type: 2}
+  - {fileID: 11400000, guid: 34d2ed371a846894c8b1d00874978600, type: 2}
+  index: 0

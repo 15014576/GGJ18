@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09ca2c923a9ace84d9bc44e5686821b8, type: 3}
+  m_Name: O1 Convo 1
+  m_EditorClassIdentifier: 
+  typeOfPanel: 2
+  nameOfSpeaker: Scarlet
+  text: Hey Leo, people have been saying you're stealing Camera equipment, what's
+    going on?
