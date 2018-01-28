@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0db458163059a6a43a6ddcb5bacfdd88, type: 3}
+  m_Name: O3 Steven chat
+  m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 11400000, guid: 17f3e4cce0cfe5e4cb860d21f0d0a5d4, type: 2}
+  - {fileID: 11400000, guid: fff072fba36ea8e4481d96a9d932ae5d, type: 2}
+  - {fileID: 11400000, guid: c0f38f2e77d78134ba09fd52796bb965, type: 2}
+  - {fileID: 11400000, guid: c0ec89d2191f33c499318853859052ff, type: 2}
+  - {fileID: 11400000, guid: 57b2661bef3f0e54bbd082401fc49d4d, type: 2}
+  - {fileID: 11400000, guid: 0eae8e2a337b80b4f98f6c825f70a707, type: 2}
+  - {fileID: 11400000, guid: 525ffd5c4acc4b74da3f528f4756c15b, type: 2}
+  index: 0
