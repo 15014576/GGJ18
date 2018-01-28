@@ -30,14 +30,14 @@ public class Movement : MonoBehaviour
 
         if(rb.velocity.magnitude > 0f)
         {
-            childMesh.localPosition = new Vector3(childMesh.localPosition.x, 0, childMesh.localPosition.z);
             childMesh.localRotation = Quaternion.LookRotation(rb.velocity.normalized);
             a.SetBool("isRunning", true);
+            childMesh.localPosition = new Vector3(childMesh.localPosition.x, 0, childMesh.localPosition.z);
         }
         else
         {
-            childMesh.localPosition = new Vector3(childMesh.localPosition.x, -1f, childMesh.localPosition.z);
             a.SetBool("isRunning", false);
+            childMesh.localPosition = new Vector3(childMesh.localPosition.x, -1f, childMesh.localPosition.z);
         }
 	}
 }
