@@ -65,12 +65,14 @@ public class State : ScriptableObject
                         Debug.LogWarning("Crashed out of whilst waiting for rumour generation to complete");
                     }
                 }
-                Cine.ShowRumours();
                 Story.SetActive(true);
+                Cine.ShowRumours();
+                
                 break;
             case StateName.Outcomes:
-                Cine.ShowOutcomes();
                 Story.SetActive(true);
+                Cine.ShowOutcomes();
+                
                 break;
         }
     }

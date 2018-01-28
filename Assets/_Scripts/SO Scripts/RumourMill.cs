@@ -20,9 +20,9 @@ public class RumourMill : ScriptableObject
     {
         ready = false;
         //Clear Out the previous rumours and outcomes
-        rumoursOut.rumours.Clear();
+      //  rumoursOut.rumours.Clear();
         outcomesOut.outcomes.Clear();
-
+        /*
         //Decide which pools to pull from for the three rumours
         Group[] groups = new Group[3];
 
@@ -35,7 +35,7 @@ public class RumourMill : ScriptableObject
         {
             rumoursOut.rumours.Add(groups[i].GetRumour());
         }
-
+        */
         ready = true;
     }
 
