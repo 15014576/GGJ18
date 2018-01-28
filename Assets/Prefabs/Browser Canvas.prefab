@@ -8469,7 +8469,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: f3a1e15e204d6984ba754d27915115bd, type: 2}
+      - m_Target: {fileID: 11400000, guid: ebbb1500713aac0498eeec3106b23f6d, type: 2}
         m_MethodName: LogOff
         m_Mode: 1
         m_Arguments:
@@ -8677,7 +8677,7 @@ MonoBehaviour:
   - {fileID: 114553670595247518}
   - {fileID: 114926684660172096}
   rFTD: {fileID: 11400000, guid: 9f7d24b81364fc34abab72cf3edfef19, type: 2}
-  oFTD: {fileID: 11400000, guid: 6714e7bafbac82947accceb1bbc3c93b, type: 2}
+  oFTD: {fileID: 0}
 --- !u!114 &114790172981666370
 MonoBehaviour:
   m_ObjectHideFlags: 1
