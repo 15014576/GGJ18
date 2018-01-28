@@ -18,18 +18,22 @@ public class StatCalcPretty : MonoBehaviour {
     void Start()
     {
         rt.GetComponent<RectTransform>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
         // (stat/sum) * rt.xmax
         float UIL = rtMain.rect.xMax;
 
         int sum = cool.stature.getStature() + sports.stature.getStature() + pretty.stature.getStature() + drama.stature.getStature() + nerd.stature.getStature();
 
-        text.text = (pretty.stature.getStature() / sum) * UIL + "%";
-        rt.sizeDelta = new Vector2((pretty.stature.getStature() / sum) * UIL, rt.rect.height);
+        text.text = (pretty.stature.getStature() / sum) * (UIL / 5) + "%";
+
+        float y = (pretty.stature.getStature() / sum) * (UIL / 5);
+
+        rt.sizeDelta = new Vector2(rt.rect.height, y);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
 
     }
 }

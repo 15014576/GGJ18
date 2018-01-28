@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a4ac735dcaf15446b5f75c5fa6f28f5, type: 3}
-  m_Name: OutcomesForTheDay
+  m_Script: {fileID: 11500000, guid: 69fbae5f90f277f438f281de6ba0d1e6, type: 3}
+  m_Name: New Outcomes For The Day
   m_EditorClassIdentifier: 
   outcomes: []
