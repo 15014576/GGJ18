@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0db458163059a6a43a6ddcb5bacfdd88, type: 3}
+  m_Name: R1 Charlie - Albert
+  m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 11400000, guid: 6fddd304ec8ca3848a70f374e30ba897, type: 2}
+  - {fileID: 11400000, guid: 9531900421363574c86d77a467c4ce29, type: 2}
+  index: 0
