@@ -10,12 +10,10 @@ public class Handler : MonoBehaviour
     public RumourMill RumourMillScript;
 
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start ()
     {
-        Cinematic CinematicScript = StoryCanvas.GetComponent<Cinematic>();
-
-        StateManager.Setup(BrowserCanvas, StoryCanvas, CinematicScript,RumourMillScript);
+        StateManager.Setup(BrowserCanvas, StoryCanvas,RumourMillScript);
 	}
 	
 	// Update is called once per frame
