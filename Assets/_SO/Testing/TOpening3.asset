@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: TOpening3
   m_EditorClassIdentifier: 
   panels:
-  - {fileID: 11400000, guid: 0b97644f76a32cb488715a2ff5f46ef7, type: 2}
-  - {fileID: 11400000, guid: fedb1ebc32e2f9d4c9620a0692b0061f, type: 2}
-  - {fileID: 11400000, guid: f62c18dc27f27404aa7cc3b0829c7f13, type: 2}
+  - {fileID: 11400000, guid: 9341a470ca57be54580eff65d8c53285, type: 2}
+  - {fileID: 11400000, guid: a7e6cb29dcd474247baefe18cbeb6a1a, type: 2}
+  - {fileID: 11400000, guid: 885fd8f17a70d484b943f5216b0fcaf9, type: 2}
   index: 0
