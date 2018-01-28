@@ -7,14 +7,14 @@ using UnityEngine.UI;
 public class soStature : ScriptableObject
 {
 
-    public int stature;
+    private int stature;
 
     public int min;
     public int max;
 
     private void OnEnable()
     {
-        //stature = 0;
+        stature = 0;
     }
 
     public int getStature()

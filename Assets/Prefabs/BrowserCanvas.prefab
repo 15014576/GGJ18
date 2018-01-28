@@ -212,11 +212,15 @@ GameObject:
   - component: {fileID: 224534532668648568}
   - component: {fileID: 222199607151420130}
   - component: {fileID: 114240045788501458}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 =======
   - component: {fileID: 224367440018673952}
   - component: {fileID: 222423362005874150}
   - component: {fileID: 114738244098450778}
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  - component: {fileID: 114124623477697488}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_Layer: 5
   m_Name: Friend (19)
   m_TagString: Untagged
@@ -1228,9 +1232,13 @@ GameObject:
   - component: {fileID: 224343142052649322}
   - component: {fileID: 222236518912531614}
   - component: {fileID: 114697555599838638}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 =======
   - component: {fileID: 224880160610422580}
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  - component: {fileID: 114360871709900858}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_Layer: 5
   m_Name: Sliding Area
   m_TagString: Untagged
@@ -1456,12 +1464,16 @@ GameObject:
   - component: {fileID: 224563663095807922}
   - component: {fileID: 222655212453662602}
   - component: {fileID: 114981599965811706}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 =======
   - component: {fileID: 224129651597331432}
   - component: {fileID: 222099465239169490}
   - component: {fileID: 114485207921327678}
   - component: {fileID: 114225448903466082}
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  - component: {fileID: 114899891224042956}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_Layer: 5
   m_Name: Scrollbar Horizontal
   m_TagString: Untagged
@@ -1515,9 +1527,13 @@ GameObject:
   - component: {fileID: 224110657634592462}
   - component: {fileID: 222443269423360610}
   - component: {fileID: 114078457812189122}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 =======
   - component: {fileID: 224882508732192464}
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  - component: {fileID: 114890693851953056}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_Layer: 5
   m_Name: Sliding Area
   m_TagString: Untagged
@@ -2193,12 +2209,16 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_IsActive: 0
 =======
   m_IsActive: 1
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_IsActive: 1
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
 --- !u!1 &1894966577136444
 =======
 --- !u!1 &1847855129373432
@@ -2297,12 +2317,16 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_IsActive: 1
 =======
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_IsActive: 0
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_IsActive: 0
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
 --- !u!1 &1922989785144746
 =======
   m_IsActive: 1
@@ -2335,11 +2359,15 @@ GameObject:
   - component: {fileID: 224608961246403460}
   - component: {fileID: 222169837930993178}
   - component: {fileID: 114916094247832230}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 =======
   - component: {fileID: 224475650798876928}
   - component: {fileID: 222267911408130410}
   - component: {fileID: 114572808784296628}
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  - component: {fileID: 114098728586218806}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_Layer: 5
   m_Name: Chat 1
   m_TagString: Untagged
@@ -3192,7 +3220,29 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
+=======
+--- !u!114 &114098728586218806
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1924012627052994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10f8cff392975fc4abbb589775c2974b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cool: {fileID: 11400000, guid: 853db73dab01a75438ff72eff622b4a6, type: 2}
+  sports: {fileID: 11400000, guid: 522fdd66d5de74f44905ee2143d45341, type: 2}
+  pretty: {fileID: 11400000, guid: 69b1a6dd01030f644a32178d0a72b91a, type: 2}
+  drama: {fileID: 11400000, guid: a6ebe1cf87a332a43aedd846ad553b75, type: 2}
+  nerd: {fileID: 11400000, guid: 962ce519e62a025438aca6afad83d587, type: 2}
+  rtMain: {fileID: 224117331834444696}
+  rt: {fileID: 224608961246403460}
+  text: {fileID: 114666794898431308}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
 --- !u!114 &114102694144958076
 =======
 --- !u!114 &114082647290667638
@@ -3484,6 +3534,25 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114124623477697488
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1094400091491450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645f13bd3daf14143925c9db08f8781e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cool: {fileID: 11400000, guid: 853db73dab01a75438ff72eff622b4a6, type: 2}
+  sports: {fileID: 11400000, guid: 522fdd66d5de74f44905ee2143d45341, type: 2}
+  pretty: {fileID: 11400000, guid: 69b1a6dd01030f644a32178d0a72b91a, type: 2}
+  drama: {fileID: 11400000, guid: a6ebe1cf87a332a43aedd846ad553b75, type: 2}
+  nerd: {fileID: 11400000, guid: 962ce519e62a025438aca6afad83d587, type: 2}
+  rtMain: {fileID: 224117331834444696}
+  rt: {fileID: 224534532668648568}
+  text: {fileID: 114690912790346158}
 --- !u!114 &114126058857418776
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6004,6 +6073,25 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Scrollbar+ScrollEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114360871709900858
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1501808984478148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc85f2a3596b791488b963cbef730e1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cool: {fileID: 11400000, guid: 853db73dab01a75438ff72eff622b4a6, type: 2}
+  sports: {fileID: 11400000, guid: 522fdd66d5de74f44905ee2143d45341, type: 2}
+  pretty: {fileID: 11400000, guid: 69b1a6dd01030f644a32178d0a72b91a, type: 2}
+  drama: {fileID: 11400000, guid: a6ebe1cf87a332a43aedd846ad553b75, type: 2}
+  nerd: {fileID: 11400000, guid: 962ce519e62a025438aca6afad83d587, type: 2}
+  rtMain: {fileID: 224117331834444696}
+  rt: {fileID: 224343142052649322}
+  text: {fileID: 114397722127386340}
 --- !u!114 &114361526727191054
 =======
 --- !u!114 &114421069090813738
@@ -10655,6 +10743,7 @@ MonoBehaviour:
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -10667,6 +10756,23 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
 --- !u!114 &114738244098450778
+=======
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 32332f23467c25949b23ca34debfffb8, type: 2}
+        m_MethodName: LogOff
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114750152274799820
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -10902,7 +11008,7 @@ MonoBehaviour:
   - {fileID: 114553670595247518}
   - {fileID: 114926684660172096}
   rFTD: {fileID: 11400000, guid: 9f7d24b81364fc34abab72cf3edfef19, type: 2}
-  oFTD: {fileID: 11400000, guid: c3b3a83be936b74479b315058ef62b79, type: 2}
+  oFTD: {fileID: 11400000, guid: d89c184bed40811488150bb20228868e, type: 2}
 --- !u!114 &114790172981666370
 =======
 --- !u!114 &114749317814853804
@@ -12014,7 +12120,29 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
+=======
+--- !u!114 &114890693851953056
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1582982066231566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e7f6d9f76a4a5e48b812514faa7abd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cool: {fileID: 11400000, guid: 853db73dab01a75438ff72eff622b4a6, type: 2}
+  sports: {fileID: 11400000, guid: 522fdd66d5de74f44905ee2143d45341, type: 2}
+  pretty: {fileID: 11400000, guid: 69b1a6dd01030f644a32178d0a72b91a, type: 2}
+  drama: {fileID: 11400000, guid: a6ebe1cf87a332a43aedd846ad553b75, type: 2}
+  nerd: {fileID: 11400000, guid: 962ce519e62a025438aca6afad83d587, type: 2}
+  rtMain: {fileID: 224117331834444696}
+  rt: {fileID: 224110657634592462}
+  text: {fileID: 114302261479937584}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
 --- !u!114 &114899780906909572
 =======
 --- !u!114 &114855784536272054
@@ -12091,7 +12219,29 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
+=======
+--- !u!114 &114899891224042956
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1567840974833266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5256e6cba77b9d24cbfc97346455e5b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cool: {fileID: 11400000, guid: 853db73dab01a75438ff72eff622b4a6, type: 2}
+  sports: {fileID: 11400000, guid: 522fdd66d5de74f44905ee2143d45341, type: 2}
+  pretty: {fileID: 11400000, guid: 69b1a6dd01030f644a32178d0a72b91a, type: 2}
+  drama: {fileID: 11400000, guid: a6ebe1cf87a332a43aedd846ad553b75, type: 2}
+  nerd: {fileID: 11400000, guid: 962ce519e62a025438aca6afad83d587, type: 2}
+  rtMain: {fileID: 224117331834444696}
+  rt: {fileID: 224563663095807922}
+  text: {fileID: 114157668868343368}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
 --- !u!114 &114902886429722180
 =======
 --- !u!114 &114862683792542214
@@ -14031,10 +14181,16 @@ RectTransform:
   m_Father: {fileID: 224707654562233434}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 100, y: -25}
+=======
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_SizeDelta: {x: 200, y: 50}
 =======
   m_AnchorMin: {x: 0, y: 0}
@@ -14109,8 +14265,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_SizeDelta: {x: 20, y: -17}
 =======
@@ -14122,6 +14279,9 @@ RectTransform:
   m_SizeDelta: {x: 200, y: 50}
 >>>>>>> harry:Assets/Prefabs/BrowserCanvas.prefab
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_SizeDelta: {x: 20, y: 0}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_Pivot: {x: 1, y: 1}
 --- !u!224 &224074193890623806
 RectTransform:
@@ -14136,6 +14296,7 @@ RectTransform:
   m_Father: {fileID: 224878754741467554}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMin: {x: 0, y: 0.3353076}
   m_AnchorMax: {x: 1, y: 0.67864096}
@@ -14147,6 +14308,10 @@ RectTransform:
   m_AnchorMax: {x: 0.9999999, y: 1}
 >>>>>>> harry:Assets/Prefabs/BrowserCanvas.prefab
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -14164,6 +14329,7 @@ RectTransform:
   m_Father: {fileID: 224241919191017512}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -14174,6 +14340,11 @@ RectTransform:
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224088702110642250
@@ -14200,8 +14371,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_SizeDelta: {x: -17, y: 20}
 =======
@@ -14211,6 +14383,9 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
 >>>>>>> harry:Assets/Prefabs/BrowserCanvas.prefab
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_SizeDelta: {x: 0, y: 20}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &224089958755923192
 RectTransform:
@@ -14307,8 +14482,8 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 96.04, y: -0.0000076293945}
-  m_SizeDelta: {x: -192.08, y: 0}
+  m_AnchoredPosition: {x: 82.40903, y: -0.0000076293945}
+  m_SizeDelta: {x: -164.82, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224116923396829598
 =======
@@ -14388,9 +14563,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: -17}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &224123419242501020
 =======
@@ -14546,9 +14721,9 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: 20}
+  m_SizeDelta: {x: 0, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &224239875076703790
 RectTransform:
@@ -14696,10 +14871,17 @@ RectTransform:
   m_Father: {fileID: 224074188294029296}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -45}
   m_SizeDelta: {x: 200, y: 30}
+=======
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 20, y: 20}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224276848334750860
 RectTransform:
@@ -14862,8 +15044,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_SizeDelta: {x: -17, y: -17}
 =======
@@ -14875,6 +15058,9 @@ RectTransform:
   m_SizeDelta: {x: 160, y: 200}
 >>>>>>> harry:Assets/Prefabs/BrowserCanvas.prefab
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_SizeDelta: {x: 0, y: 0}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &224315640849074524
 RectTransform:
@@ -14910,9 +15096,14 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchoredPosition: {x: -70.522, y: 0}
   m_SizeDelta: {x: -141.04, y: 0}
+=======
+  m_AnchoredPosition: {x: -83.954, y: 0}
+  m_SizeDelta: {x: -167.91, y: 0}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224346303330796712
 =======
@@ -15028,6 +15219,7 @@ RectTransform:
   m_Father: {fileID: 224276848334750860}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -15038,6 +15230,11 @@ RectTransform:
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224395641874492990
@@ -15081,7 +15278,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -15153,6 +15350,7 @@ RectTransform:
   m_Father: {fileID: 224586048616788116}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMin: {x: 0, y: 0.16728729}
   m_AnchorMax: {x: 1, y: 0.5106206}
@@ -15161,6 +15359,10 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -15187,14 +15389,18 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMax: {x: 1, y: 0}
 =======
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMax: {x: 0, y: 0}
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_AnchorMax: {x: 0, y: 0}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: 20}
+  m_SizeDelta: {x: 0, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &224446815157335084
 =======
@@ -15252,10 +15458,17 @@ RectTransform:
   m_Father: {fileID: 224126643970051832}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -19.999985}
   m_SizeDelta: {x: 200, y: 30}
+=======
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 20, y: 20}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224426591836859278
 RectTransform:
@@ -15425,12 +15638,16 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMax: {x: 1, y: 1}
 =======
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMax: {x: 0, y: 0}
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_AnchorMax: {x: 0, y: 0}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
 =======
@@ -15521,9 +15738,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: -17}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &224522617496543242
 =======
@@ -15564,8 +15781,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 73.15, y: -0.0000076293945}
-  m_SizeDelta: {x: -179.18, y: 0}
+  m_AnchoredPosition: {x: 36.603, y: -0.0000076293945}
+  m_SizeDelta: {x: -160.61, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
 --- !u!224 &224538428146501164
@@ -15581,9 +15798,9 @@ RectTransform:
   m_Father: {fileID: 224212824516690126}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100, y: -25}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224540134391539218
@@ -15686,6 +15903,7 @@ RectTransform:
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
   m_AnchoredPosition: {x: -9.9025, y: -0.0000076293945}
   m_SizeDelta: {x: -154.76, y: 0}
 =======
@@ -15694,6 +15912,10 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_AnchoredPosition: {x: -46.846, y: -0.0000076293945}
+  m_SizeDelta: {x: -174.92, y: 0}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224555026822750702
 RectTransform:
@@ -15709,9 +15931,9 @@ RectTransform:
   m_RootOrder: 0
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100, y: -25}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
 =======
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
@@ -15828,7 +16050,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000022649765, y: 96.407684}
+  m_AnchoredPosition: {x: -0.000022649765, y: 63.30768}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &224608961246403460
@@ -15854,9 +16076,14 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchoredPosition: {x: 37.73, y: 0.0000035698}
   m_SizeDelta: {x: -167.02, y: -0.000022888}
+=======
+  m_AnchoredPosition: {x: -8.6985, y: 0.0000035698}
+  m_SizeDelta: {x: -165.83, y: -0.000022888}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224627469552506084
 =======
@@ -15904,9 +16131,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: -17}
+  m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!224 &224633238211379100
 =======
@@ -15991,6 +16218,7 @@ RectTransform:
   m_Father: {fileID: 224285260010968190}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -16006,6 +16234,11 @@ RectTransform:
   m_AnchoredPosition: {x: 40, y: -5}
 >>>>>>> harry:Assets/Prefabs/BrowserCanvas.prefab
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!224 &224628387581133800
@@ -16021,6 +16254,7 @@ RectTransform:
   m_Father: {fileID: 224453219642239500}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMin: {x: 0, y: 0.6566666}
   m_AnchorMax: {x: 1, y: 0.9999999}
@@ -16029,6 +16263,10 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
 =======
@@ -16089,9 +16327,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: -17}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &224694128608943868
 =======
@@ -16137,14 +16375,18 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMax: {x: 1, y: 0}
 =======
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMax: {x: 0, y: 0}
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_AnchorMax: {x: 0, y: 0}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: 20}
+  m_SizeDelta: {x: 0, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &224703667352987158
 =======
@@ -16207,7 +16449,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000018447638, y: 146.81378}
+  m_AnchoredPosition: {x: -0.000018447638, y: 96.407684}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &224716292174227118
@@ -16231,6 +16473,7 @@ RectTransform:
   m_Father: {fileID: 224662229761748874}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMin: {x: 0, y: 0.6566666}
   m_AnchorMax: {x: 1, y: 0.9999999}
@@ -16243,6 +16486,10 @@ RectTransform:
   m_AnchorMax: {x: 1, y: 1}
 >>>>>>> harry:Assets/Prefabs/BrowserCanvas.prefab
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: -17}
   m_Pivot: {x: 1, y: 1}
@@ -16261,14 +16508,18 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMax: {x: 1, y: 1}
 =======
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMax: {x: 0, y: 0}
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_AnchorMax: {x: 0, y: 0}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: -17}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &224721601694850696
 RectTransform:
@@ -16329,9 +16580,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: -17}
+  m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!224 &224725561523693604
 =======
@@ -16429,7 +16680,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0000218153, y: 96.407684}
+  m_AnchoredPosition: {x: -0.0000218153, y: 63.30768}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &224761483909122656
@@ -16448,6 +16699,7 @@ RectTransform:
   m_Father: {fileID: 224453219642239500}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMin: {x: 0.00000011920929, y: 0}
   m_AnchorMax: {x: 0.99999976, y: 1}
@@ -16460,6 +16712,10 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
 >>>>>>> harry:Assets/Prefabs/BrowserCanvas.prefab
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -16589,9 +16845,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: -17}
+  m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!224 &224802874736299638
 =======
@@ -16786,9 +17042,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: -17}
+  m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!224 &224899381590964632
 =======
@@ -16868,14 +17124,18 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMax: {x: 1, y: 0}
 =======
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMax: {x: 0, y: 0}
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_AnchorMax: {x: 0, y: 0}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: 20}
+  m_SizeDelta: {x: 0, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &224948896525061818
 =======
@@ -16917,9 +17177,9 @@ RectTransform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: -17}
+  m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 1, y: 1}
 --- !u!224 &224945949383717474
 RectTransform:
@@ -16934,6 +17194,7 @@ RectTransform:
   m_Father: {fileID: 224882508732192464}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMin: {x: 0, y: 0.3353076}
   m_AnchorMax: {x: 1, y: 0.67864096}
@@ -16945,6 +17206,10 @@ RectTransform:
   m_AnchorMax: {x: 1, y: 1}
 >>>>>>> harry:Assets/Prefabs/BrowserCanvas.prefab
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -16962,14 +17227,18 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMax: {x: 1, y: 1}
 =======
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMax: {x: 0, y: 0}
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_AnchorMax: {x: 0, y: 0}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: -17}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &224965772302764698
 =======
@@ -16998,12 +17267,16 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
+<<<<<<< HEAD:Assets/Prefabs/BrowserCanvas.prefab
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMax: {x: 1, y: 1}
 =======
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMax: {x: 0, y: 0}
 >>>>>>> master:Assets/Prefabs/BrowserCanvas.prefab
+=======
+  m_AnchorMax: {x: 0, y: 0}
+>>>>>>> parent of 177866a... 24w:Assets/Prefabs/Browser Canvas.prefab
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
 =======
@@ -17028,9 +17301,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -17, y: 20}
+  m_SizeDelta: {x: 0, y: 20}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &224976988193066044
 =======
@@ -17055,7 +17328,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD:Assets/Prefabs/Browser Canvas.prefab
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
 =======
