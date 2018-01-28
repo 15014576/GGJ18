@@ -13,6 +13,8 @@ public class Cinematic : MonoBehaviour
     bool outOfDialogs;
     bool lastPanel;
 
+    public Sprite sil;
+
     public float textSpeed;
 
     public GameObject _SettingPanel;
@@ -53,6 +55,7 @@ public class Cinematic : MonoBehaviour
 
     public void ShowRumours()
     {
+        Debug.Log(settingText.text);
         List<PanelInfo> _dialog = new List<PanelInfo>();
         List<Rumour> rum = rumoursForTheDay.rumours;
 
@@ -122,6 +125,10 @@ public class Cinematic : MonoBehaviour
         _NameText.SetActive(false);
         _ConvoText.SetActive(false);
 
+        _LeftImage.SetActive(false);
+        _RightImage.SetActive(false);
+        _CentreImage.SetActive(false);
+
         _ButtonNext.SetActive(false);
         _ButtonExit.SetActive(false);
 
@@ -130,42 +137,55 @@ public class Cinematic : MonoBehaviour
         switch(p.typeOfPanel)
         {
             case PanelType.Setting:
-                settingText.text = p.text;
                 _SettingText.SetActive(true);
                 _SettingPanel.SetActive(true);
+                settingText.text = p.text;
                 break;
             case PanelType.One_Person:
-                nameText.text = p.nameOfSpeaker;
                 _NameText.SetActive(true);
+                _CentreImage.SetActive(true);
+                _ConvoText.SetActive(true);
+                _SpeechPanel.SetActive(true);
+                nameText.text = p.nameOfSpeaker;
                 if (nameText.text != "")
                 {
                     _NamePanel.SetActive(true);
                 }
                 StartCoroutine("PrintText", p.text);
-                _ConvoText.SetActive(true);
-                _SpeechPanel.SetActive(true);
+                centreImage.sprite = GetSpeakerSprite();
+                
                 break;
             case PanelType.Two_Person:
-                nameText.text = p.nameOfSpeaker;
+                _CentreImage.SetActive(true);
+                _ConvoText.SetActive(true);
+                _SpeechPanel.SetActive(true);
                 _NameText.SetActive(true);
+                nameText.text = p.nameOfSpeaker;
+                
                 if (nameText.text != "")
                 {
                     _NamePanel.SetActive(true);
                 }
                 StartCoroutine("PrintText", p.text);
-                _ConvoText.SetActive(true);
-                _SpeechPanel.SetActive(true);
+                centreImage.sprite = GetSpeakerSprite();
+                
                 break;
         }
 
         if(lastPanel)
         {
+            Debug.Log("Hi");
             _ButtonExit.SetActive(true);
         }
         else
         {
             _ButtonNext.SetActive(true);
         }
+    }
+
+    Sprite GetSpeakerSprite()
+    {
+        return sil;
     }
 
     IEnumerator PrintText(string t)

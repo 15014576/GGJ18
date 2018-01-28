@@ -8,6 +8,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 321d28282ecb3a9479399e5619c3326f, type: 3}
-  m_Name: StateController
+  m_Script: {fileID: 11500000, guid: bce53a1aef94e47459b6f3c93ad6d147, type: 3}
+  m_Name: StateMananger
   m_EditorClassIdentifier: 

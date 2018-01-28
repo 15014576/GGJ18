@@ -9303,7 +9303,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: ebbb1500713aac0498eeec3106b23f6d, type: 2}
+      - m_Target: {fileID: 11400000, guid: 32332f23467c25949b23ca34debfffb8, type: 2}
         m_MethodName: LogOff
         m_Mode: 1
         m_Arguments:
