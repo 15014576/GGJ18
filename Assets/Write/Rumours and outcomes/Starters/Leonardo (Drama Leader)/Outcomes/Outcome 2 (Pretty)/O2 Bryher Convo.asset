@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0db458163059a6a43a6ddcb5bacfdd88, type: 3}
+  m_Name: O2 Bryher Convo
+  m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 11400000, guid: a51241c64a0383d4c93fe7f0560a81a1, type: 2}
+  - {fileID: 11400000, guid: 2515a986ebd37a048bc9107e58a18579, type: 2}
+  - {fileID: 11400000, guid: 0abef4b8e9b1aad4b91e29ffffd6ce33, type: 2}
+  - {fileID: 11400000, guid: 15f0cf7ff8087cb43a022d331d998763, type: 2}
+  - {fileID: 11400000, guid: 4bc8dbb91c936a94ea7a74ef05ff872a, type: 2}
+  - {fileID: 11400000, guid: bef3f24a11c280642aaf090442e9a096, type: 2}
+  - {fileID: 11400000, guid: 6a3e28fa78ec1bc4f88e22b5d31fc9a5, type: 2}
+  index: 0

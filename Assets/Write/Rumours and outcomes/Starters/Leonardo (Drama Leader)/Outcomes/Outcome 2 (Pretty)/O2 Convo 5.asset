@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 09ca2c923a9ace84d9bc44e5686821b8, type: 3}
-  m_Name: O3S Convo 4
+  m_Name: O2 Convo 5
   m_EditorClassIdentifier: 
   typeOfPanel: 2
-  nameOfSpeaker: Tom
-  text: I like you're thinking, we're the second highest rank, if the people listen
-    to what we say, we have a better chance of exposing that pretty lot.
+  nameOfSpeaker: Charlie
+  text: I think we should talk to those spreading those rumours, I'm sure they'll
+    love to talk to us.

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0db458163059a6a43a6ddcb5bacfdd88, type: 3}
+  m_Name: O2 Steven Convo
+  m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 11400000, guid: 2d2df3c909057ba4cb431da34cda2fe7, type: 2}
+  - {fileID: 11400000, guid: 567aa5a56e8155c428b38426cec7747d, type: 2}
+  - {fileID: 11400000, guid: 4eaa1497a5df62e4d8d3b1069e9467fb, type: 2}
+  - {fileID: 11400000, guid: 36704d1e6089b4942a18d8db566326b6, type: 2}
+  - {fileID: 11400000, guid: 16b3d414edb4ad64681a4c68f75812dc, type: 2}
+  - {fileID: 11400000, guid: 4835e5259a1bdd64395e7f752aebf490, type: 2}
+  - {fileID: 11400000, guid: 2ec40724bd46ada468ec48687c79b85e, type: 2}
+  - {fileID: 11400000, guid: 3adb8c1d836e38a49b0964d61017416e, type: 2}
+  index: 0

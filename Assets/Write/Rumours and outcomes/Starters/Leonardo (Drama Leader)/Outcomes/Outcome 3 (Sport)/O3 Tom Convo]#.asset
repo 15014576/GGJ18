@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0db458163059a6a43a6ddcb5bacfdd88, type: 3}
+  m_Name: O3 Tom Convo]#
+  m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 11400000, guid: cafa9656aa918914a9cb6bc96a6f98b8, type: 2}
+  - {fileID: 11400000, guid: 532dbe3cf396d0949baa98cc1e28b1dc, type: 2}
+  - {fileID: 11400000, guid: 3f682b9259f332d448dad795193a4db3, type: 2}
+  - {fileID: 11400000, guid: de657c8d47a113e44a1bd04c462bdb12, type: 2}
+  - {fileID: 11400000, guid: a50945a90c14ea0439dd62afb2dff3ab, type: 2}
+  - {fileID: 11400000, guid: 9b1a65883c68ce74ba9098ddea17feae, type: 2}
+  - {fileID: 11400000, guid: 9dbd907a00db6f44e9190e5820535d7e, type: 2}
+  index: 0
