@@ -101,8 +101,6 @@ public class Cinematic : MonoBehaviour
     {
         panelIndex++;
 
-        Debug.Log(PIindex + " : " + panelIndex);
-
         if (panelIndex == dialog[PIindex].panels.Count)
         {
             PIindex++;
@@ -116,9 +114,6 @@ public class Cinematic : MonoBehaviour
                 panelIndex = 0;
             }
         }
-
-        Debug.Log(PIindex + " : " + panelIndex);
-        Debug.Log(" Lah: " + dialog[PIindex].panels.Count);
 
         if (PIindex == dialog.Count - 1 && panelIndex == dialog[PIindex].panels.Count - 1)
         {
