@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ba553ac1b1b9dc4d8465dbdd8e5ecf2, type: 3}
+  m_Name: TestR4D
+  m_EditorClassIdentifier: 
+  rumours:
+  - {fileID: 11400000, guid: f0e8bf3dbaac31c41b2bf3e1c88429d0, type: 2}
+  - {fileID: 11400000, guid: e53e933fa4fcff54aa86158a6434b0c0, type: 2}
