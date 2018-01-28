@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   about: {fileID: 0}
   summary: Something
-  opening: {fileID: 11400000, guid: bd440e694d6485c4caf9ed2908ac054f, type: 2}
+  opening: {fileID: 11400000, guid: 8b96c9d42f78867439de7db0939cae62, type: 2}
   outcome_tellAbout: {fileID: 0}
   outcomes_tellFriends: []
   outcomes_tellEnemies: []
