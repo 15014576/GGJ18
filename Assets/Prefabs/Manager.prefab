@@ -51,3 +51,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a53eee0c997c3d447a2818ee4d25443d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StateManager: {fileID: 11400000, guid: f3a1e15e204d6984ba754d27915115bd, type: 2}
+  BrowserCanvas: {fileID: 0}
+  StoryCanvas: {fileID: 0}
