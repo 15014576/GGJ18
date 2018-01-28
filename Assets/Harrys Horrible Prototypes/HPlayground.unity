@@ -282,6 +282,10 @@ Prefab:
       propertyPath: textSpeed
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 1328544324862140, guid: 2a65cecd3b1d47c4a876edacf10b5a9f, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2a65cecd3b1d47c4a876edacf10b5a9f, type: 2}
   m_IsPrefabParent: 0
