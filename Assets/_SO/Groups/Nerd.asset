@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: Nerd
   m_EditorClassIdentifier: 
   title: 
-  stature: {fileID: 0}
+  stature: {fileID: 11400000, guid: 878a1ec4bc90bc44bab7bbdf28cc1340, type: 2}
   playerRep: {fileID: 11400000, guid: 7a021b1f92f43954f9bd885ad3e1d974, type: 2}
   pool: {fileID: 0}
   friends:
