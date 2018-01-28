@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0db458163059a6a43a6ddcb5bacfdd88, type: 3}
+  m_Name: O1 Max Convo
+  m_EditorClassIdentifier: 
+  panels:
+  - {fileID: 11400000, guid: 791a1d9ff690bfc4eb6bbd6589c42d1b, type: 2}
+  - {fileID: 11400000, guid: b663207195de3494b9887f62c1c3e5fa, type: 2}
+  - {fileID: 11400000, guid: a8555a141ac7c3a44b5e64288e23c604, type: 2}
+  - {fileID: 11400000, guid: 78278eec029671842907ae7dbf2313a3, type: 2}
+  - {fileID: 11400000, guid: fec5cd39a4e5a814f8d8b529f6db6174, type: 2}
+  - {fileID: 11400000, guid: cc22b729918436e48add3e14c2735514, type: 2}
+  - {fileID: 11400000, guid: 1f1abdec9e13e714993b7dd3e2e07ca0, type: 2}
+  - {fileID: 11400000, guid: f523163dfa61d544eae31d7056fc4b2e, type: 2}
+  index: 0
