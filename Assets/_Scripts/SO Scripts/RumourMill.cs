@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[CreateAssetMenu(menuName = "Misc/Rumour Mill")]
 public class RumourMill : ScriptableObject
 {
     public RumoursForTheDay rumoursOut;
@@ -12,9 +13,12 @@ public class RumourMill : ScriptableObject
     public Group prettyGroup;
     public Group sportyGroup;
 
+    public bool ready;
+
 
     public void Generate()
     {
+        ready = false;
         //Clear Out the previous rumours and outcomes
         rumoursOut.rumours.Clear();
         outcomesOut.outcomes.Clear();
@@ -31,6 +35,8 @@ public class RumourMill : ScriptableObject
         {
             rumoursOut.rumours.Add(groups[i].GetRumour());
         }
+
+        ready = true;
     }
 
     Group GetRandomIndexGroup(float[] cumul)

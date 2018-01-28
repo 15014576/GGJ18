@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu (menuName = "Misc/RumoursForDay")]
+[CreateAssetMenu (menuName = "Misc/Rumours for the Day")]
 public class RumoursForTheDay : ScriptableObject
 {
     public List<Rumour> rumours;
